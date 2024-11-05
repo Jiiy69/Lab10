@@ -24,3 +24,9 @@ CSS3
 Bootstrap 3.4.1
 
 jQuery
+
+Made by:
+
+Lou Jerick Liwanag
+
+n01630199
