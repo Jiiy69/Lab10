@@ -17,6 +17,9 @@ Footer: Footer section with project details including the course name and author
 
 **Files Used**
 HTML5
+
 CSS3
+
 Bootstrap 3.4.1
+
 jQuery
