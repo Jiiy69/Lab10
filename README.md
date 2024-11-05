@@ -6,9 +6,13 @@ There is also a forms section for the viewers to fill in their details and a foo
 
 **Features**
 Navigation Bar: A responsive navbar created with Bootstrap that allows users to navigate through sections.
+
 Hero Section: A full-width hero section with a background image, heading, and subheading, emphasizing the theme of travel.
+
 Places Section: A row displaying three travel destinations, each with an image and description.
+
 Form Section: A simple form with email and password input fields, plus a submit button.
+
 Footer: Footer section with project details including the course name and author.
 
 **Files Used**
