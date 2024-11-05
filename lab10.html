@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bootstrap Project with Hero Section</title> 
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" rel="stylesheet">
-    <link href="style.css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link href="style.css" rel="stylesheet">
 </head>
 
 <body>
@@ -19,14 +19,14 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>                        
                 </button>
-                <a class="navbar-brand" href="#">
+                <a class="navbar-brand" href="#home">
                   Bootstrap Project
                   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/2560px-Bootstrap_logo.svg.png" width="20" style="display:inline; margin-left: 5px; vertical-align: middle;">
               </a>
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="#">Home</a></li>
+                    <li class="active"><a href="#home">Home</a></li>
                     <li><a href="forms.html">Forms</a></li>
                     <li><a href="#footer">Contact</a></li>
                 </ul>
@@ -34,93 +34,68 @@
         </div>
     </nav>
     
+    <section id="home">
     <div class="hero">
-        <h1>Welcome to the Bootstrap Project</h1>
-        <p>Journey to understanding bootstrap framework.</p>
+        <h1>TOP PLACES TO VISIT</h1>
+        <h3>Plan your next trip with me</h3>
     </div>
+    </section>
 
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-        </ol>
-    
-        <h3 style="text-align: center;">Bootstrap Project Images</h3>
-        <div class="carousel-inner" role="listbox">
-            <div class="item active">
-                <img src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/20190531150437/Bootstrap_image.png" alt="Image">
-                <div class="carousel-caption">
-                    <h3>Understanding Bootstrap</h3>
-                </div>      
-            </div>
-    
-            <div class="item">
-                <img src="https://yatteiku.blog/wp-content/uploads/2021/01/20210105b-min-1200x400.jpg" alt="Image">
-                <div class="carousel-caption">
-                    <h3>BootStrap Framework</h3>
-                </div>      
-            </div>
-        </div>
-    
-        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
+    <div class="bg-primary text-white p-5 text-center">
+        <h1>Top 3 Places</h1> 
+        <p>My top 3 recommendations</p>
     </div>
-
-    <div class="container text-center">    
-        <h3>Current Projects</h3><br>
-        <div class="row">
-            <div class="col-sm-4">
-                <img src="https://miro.medium.com/v2/resize:fit:880/1*xhetkayEojt0U1BVgMORfw.jpeg" class="img-responsive" style="width:100%" alt="Image">
-                <p>CSS Frameworks</p>
-            </div>
-            <div class="col-sm-4"> 
-                <img src="https://www.bootstrapdash.com/blog/wp-content/uploads/2017/08/Use-Bootstrap-With-HTML-scaled-1.jpg" class="img-responsive" style="width:100%" alt="Image">
-                <p>Most used framework in HTML5</p>    
-            </div>
-            <div class="col-sm-4">
-                <div class="well">
-                    <p>Bootstrap is the most popular CSS Framework for developing responsive and mobile-first websites.</p>
-                </div>
-                <div class="well">
-                    <p>Bootstrap is a free, open source front-end development framework for the creation of websites and web apps. Designed to enable responsive development of mobile-first websites, Bootstrap provides a collection of syntax for template designs.</p>
-                </div>
-            </div>
-        </div>
-    </div><br>
-    
+        
     <div class="container">
-      <form>
-        <h3>Forms</h3>
-        <div class="form-group">
-          <label for="exampleInputEmail1">Email address</label>
-          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        <div class="row text-center">
+            <div class="col-sm-4">
+                <img src="https://www.state.gov/wp-content/uploads/2018/11/Netherlands-2114x1406.jpg" class="img-responsive center-block place-img" alt="Netherlands">
+                <h2>Netherlands</h2>
+                <p>The Netherlands offers beautiful canal-lined cities like Amsterdam, historic sites, and a charming blend of traditional architecture. In spring, vibrant tulip fields and iconic windmills in areas like Keukenhof and Kinderdijk showcase Dutch landscapes. Cycling is a popular and easy way to explore the country, with extensive bike paths and a flat terrain. Art lovers will find masterpieces in the country’s top museums, including the Rijksmuseum and the Van Gogh Museum.</p>
+            </div>
+            <div class="col-sm-4">
+                <img src="https://www.theitalianontour.com/wp-content/uploads/2020/01/best-time-of-year-to-visit-rome-italy-min.jpg" class="img-responsive center-block place-img" alt="Italy">
+                <h2>Italy</h2>
+                <p>Italy is renowned for its rich history, with ancient sites like the Colosseum in Rome and Pompeii offering glimpses into the past. The country boasts world-class art and architecture, with landmarks like Florence's Duomo and Michelangelo’s David. Italian cuisine, from pizza in Naples to pasta in Bologna, is beloved worldwide and offers authentic regional flavors. Italy’s scenic landscapes, including the Amalfi Coast, Tuscany’s rolling hills, and Venice’s canals, make it a breathtaking destination for travelers.</p>
+            </div>
+            <div class="col-sm-4">
+                <img src="https://www.state.gov/wp-content/uploads/2019/04/Japan-2107x1406.jpg" class="img-responsive center-block place-img" alt="Japan">
+                <h2>Japan</h2>
+                <p>Japan offers a unique blend of ancient traditions and modern innovation, with historic temples in Kyoto and futuristic technology in Tokyo. The country's natural beauty shines through in iconic spots like Mount Fuji, cherry blossom season, and serene bamboo forests. Japanese cuisine is world-renowned, from sushi and ramen to delicate kaiseki dining, offering diverse and flavorful experiences. Japan’s efficient transportation system and unique cultural practices, like tea ceremonies and onsen baths, make it a fascinating and accessible destination for travelers.</p>
+            </div>
         </div>
-        <div class="form-group">
-          <label for="exampleInputPassword1">Password</label>
-          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-        </div>
-        <div class="form-group form-check">
-          <input type="checkbox" class="form-check-input" id="exampleCheck1">
-          <label class="form-check-label" for="exampleCheck1">Check me out</label>
-        </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
-      </form>
     </div>
 
+    <div class="bg-primary text-white p-5 text-center">
+        <h1>Forms</h1> 
+    </div>
+        
+    <div class="container">
+        <form>
+            <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+            <div class="form-group">
+                <label for="exampleInputPassword1">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+            </div>
+            <div class="form-group form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+    
     <section id="footer">
-    <footer class="container-fluid text-center">
-        <p>Lab 5 Activity: Building a Music-Themed Website</p>
-        <p>Lou Liwanag</p>
-        <p>CPN 134</p>
-        <p>n01630199@humber.ca</p>
-    </footer>
-  </section>
+        <footer class="container-fluid text-center">
+            <p>Lab 5 Activity: Building a Music-Themed Website</p>
+            <p>Lou Liwanag</p>
+            <p>CPN 134</p>
+            <p>n01630199@humber.ca</p>
+        </footer>
+    </section>
 </body>
 </html>

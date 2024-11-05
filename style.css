@@ -2,14 +2,32 @@
     margin-bottom: 0;
     border-radius: 0;
 }
-    
+
+
 footer {
     background-color: #f2f2f2;
     padding: 25px;
 }
 
-h3 {
+.hero {
+    background: url('https://assets.bucketlistly.blog/sites/5adf778b6eabcc00190b75b1/content_entry5adf77af6eabcc00190b75b6/605d5c81f4fdf8000bd0ee1c/files/best-places-to-visit-new-zealand-main-image-hd-op.webp') center center/cover no-repeat;
+    color: white;
+    padding: 150px 20px;
     text-align: center;
+    position: relative;
+}
+
+.hero h1, .hero h3 {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); 
+}
+
+.bg-primary {
+    margin-top: -20px; 
+}
+
+.place-img {
+    width: 100%; 
+    height: auto;
 }
 
 .form-container {
@@ -21,23 +39,9 @@ h3 {
 }
 .form-box {
     width: 100%;
-    max-width: 400px;
+    max-width: 400px; 
     padding: 20px;
     background-color: white;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-
-.hero {
-    background: url('https://images.unsplash.com/photo-1517180102446-f3ece451e9d8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDF8fGJvb3RzdHJhcHxlbnwwfHx8fDE2NTk1MTcxNzQ&ixlib=rb-1.2.1&q=80&w=1200') center center/cover no-repeat;
-    color: white;
-    padding: 150px 20px;
-    text-align: center;
-}
-.hero h1 {
-    font-weight: bold;
-}
-.hero p {
-
-    margin-top: 10px;
 }
